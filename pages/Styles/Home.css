@@ -1,0 +1,26 @@
+body, main, main div, ul, #Top div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Top{
+    display: flex;
+    justify-content: normal;
+    flex-direction: row;
+}
+#Top div{
+    width: 45%;
+    align-items: center;
+}
+#Intro{
+    display: flex;
+    flex-direction: row;
+}
+#Intro div{
+    width: 32%;
+}
+ul{
+    list-style: none;
+    align-items: normal;
+    flex-direction: row;
+}
