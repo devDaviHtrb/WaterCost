@@ -6,40 +6,43 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="../Styles/Home.css" />
   </head>
-  <body>
-    <header>
-      <nav id="menu">
-        <div id="logo"><img src="" alt="" /></div>
-        <div id="rotas">
-          <ul>
-            <li><a href="./index.html">Sobre</a></li>
-            <li><a href="./Calculator.html">Calculadora</a></li>
-            <li><a href="./Transparency.html">Transparência</a></li>
-          </ul>
+  <body id="bcalc">
+    <div id="pag2">
+      <header>
+        <nav id="menu">
+          <div id="logo"><img src="../Imgs/logo-removebg-preview.png" alt="" /></div>
+          <div id="rotas">
+            <ul>
+              <li><a href="./index.html">Sobre</a></li>
+              <li><a href="./Calculator.html">Calculadora</a></li>
+              <li><a href="./Transparency.html">Transparência</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <span> s</span>
+        <div id="Calculator">
+          <div class="Input">
+            <p class="label">Número de pessoas na residência</p>
+            <input type="number" id="Usernumber" placeholder="Digite aqui..."/>
+          </div>
+          <div class="Input">
+            <p class="label">Tempo de banho por pessoa em minutos</p>
+            <input type="number" id="BathTime" placeholder="Digite aqui..." />
+          </div>
+          <div class="Input">
+            <p class="label">Banhos por pessoa</p>
+            <input type="number" id="BathperUser" placeholder="Digite aqui..."/>
+          </div>
+          <div id="Result"><p class="label">Gasto de água em litros</p><p id="Exit"></p><button id="submit">Calcular</button></div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div id="Calculator">
-        <div class="Input">
-          <p class="label">Número de pessoas na residência</p>
-          <input type="number" id="Usernumber" placeholder="Digite aqui..."/>
-        </div>
-        <div class="Input">
-          <p class="label">Tempo de banho por pessoa em minutos</p>
-          <input type="number" id="BathTime" placeholder="Digite aqui..." />
-        </div>
-        <div class="Input">
-          <p class="label">Banhos por pessoa</p>
-          <input type="number" id="BathperUser" placeholder="Digite aqui..."/>
-        </div>
-        <div id="Result"><p class="label">Gasto de água em litros</p><p id="Exit"></p><button id="submit">Calcular</button></div>
-      </div>
-    </main>
-    <footer>
-      © Copyright 2024 Davi H. T. Ribeiro, Gabriel Nascimento, Giulia de Jesus.
-      All rights reserved
-    </footer>
+      </main>
+      <footer>
+        © Copyright 2024 Davi H. T. Ribeiro, Gabriel Nascimento, Giulia de Jesus.
+        All rights reserved
+      </footer>
+    </div>
     <script src="../../Scripts/index.js" type="module"></script>
   </body>
 </html>
