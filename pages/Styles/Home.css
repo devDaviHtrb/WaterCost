@@ -144,3 +144,23 @@ span{
 
     background-color: rgb(65, 65, 100);
 }
+input{
+    background-color: rgb(188, 213, 255);
+    border: 0px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.label{
+    color: rgb(72, 108, 170);
+}
+#Exit{
+    margin-top: 0px;
+    background-color: rgb(188, 213, 255);
+    border-radius: 15px;
+    height: 15px;
+    width: 170px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
