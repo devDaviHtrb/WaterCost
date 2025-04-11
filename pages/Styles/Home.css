@@ -47,33 +47,30 @@ nav img{
     width: 100%;
     background-color: darkcyan;
     position: static;
-    height: 350px;
-    
+    height: 200px; 
 }
 #TopIntro{
     position: static;
-    margin-left: 4%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 
-    height: 335px;
+    height: 150px;
     border: 2px rgb(201, 195, 177) solid;
-
 }
 #Top #TopIntro div{
     position: absolute;
-    height: 335px;
+    height: 150px;
     border: 2px rgb(201, 195, 177) solid;
-    left: 20%;
-    top:13%;
-    width: 32%;
-
+    margin-left: 2.5%;
+    margin-top: 1%;
+    width: 31.5%;
 }
 #Top #TopIntro div p{
-    padding-right: 10%;
-    padding-left: 4%;
-    padding-top: 10%;
+    margin-left: 5%;
+    margin-right: 8%;
+    text-align: center;
     color: rgb(0, 0, 84);
-    font-size: 160%;
+    font-size: 125%;
 }
 #Top #CalcPropaganda{
     color: white;
@@ -84,7 +81,7 @@ nav img{
     padding: 0px;
     width: 30%;
     height: 52%;
-
+    border: 2px rgb(201, 195, 177) solid;
 }
 #CalcPropaganda a{
     color: darkcyan;
