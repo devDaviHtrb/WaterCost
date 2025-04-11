@@ -77,10 +77,11 @@ nav img{
     background-image: url("../Imgs/fundo-de-agua-marinha-turva_1107-134.avif");
     background-size: cover;
     position: absolute;
-    left: 54%;
-    padding: 0px;
-    width: 30%;
-    height: 52%;
+    left: 50%;
+    margin-top: 1.4%;
+    width: 33.5%;
+    height: 25.7%;
+    font-size: 85%;
     border: 2px rgb(201, 195, 177) solid;
 }
 #CalcPropaganda a{
