@@ -105,6 +105,19 @@ nav img{
     font-size: 120%;
     text-align: justify;
 }
+#Texts div{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#Texts div p{
+    color: #306b89;
+    font-size: 120%;
+    text-align: justify;
+}
+#Texts div h1{
+    color: navy;
+    text-align: left;
+}
 #Top{
     display: flex;
     justify-content: normal;
