@@ -5,7 +5,7 @@ body, main, main div, ul, #Top div, nav{
     
 }
 #pag, #pag2{
-    background-color: rgb(228, 255, 246)
+    background-color: #a8c4d8;
     ;
     position: static;
     min-height: 100vh;
@@ -20,10 +20,10 @@ body, main, main div, ul, #Top div, nav{
 body{
     width: 70%;
     margin: auto;
-    background-color: rgba(197, 255, 236, 0.168);
+    background-color: #5e8ba7;
 }
 nav{
-    background-color: rgb(228, 255, 246);
+    background-color: #a8c4d8;
     flex-direction: row;
     padding: 7px;
 }
