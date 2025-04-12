@@ -45,7 +45,9 @@ nav img{
 }
 #Top{
     width: 100%;
-    background-color: darkcyan;
+    background-image: url(../Imgs/Ocean2.jpg);
+    background-size: cover;
+    background-position-y: 50%;
     position: static;
     height: 200px; 
 }
@@ -55,12 +57,12 @@ nav img{
     margin-top: 2%;
 
     height: 150px;
-    border: 2px rgb(201, 195, 177) solid;
+    border: 2px rgb(226, 217, 190) solid;
 }
 #Top #TopIntro div{
     position: absolute;
     height: 150px;
-    border: 2px rgb(201, 195, 177) solid;
+    border: 2px rgb(226, 217, 190) solid;
     margin-left: 2.5%;
     margin-top: 1%;
     width: 31.5%;
@@ -69,24 +71,23 @@ nav img{
     margin-left: 5%;
     margin-right: 8%;
     text-align: center;
-    color: rgb(0, 0, 84);
+    color: navy;
     font-size: 125%;
 }
 #Top #CalcPropaganda{
-    color: white;
-    background-image: url("../Imgs/fundo-de-agua-marinha-turva_1107-134.avif");
-    background-size: cover;
+    backdrop-filter: blur(1px);
+    color: navy;
     position: absolute;
-    left: 50%;
+    left: 63.4%;
     margin-top: 1.4%;
-    width: 33.5%;
+    width: 20%;
     height: 25.7%;
-    font-size: 85%;
-    border: 2px rgb(201, 195, 177) solid;
+    font-size: 70%;
+    border: 2px rgb(226, 217, 190) solid;
 }
 #CalcPropaganda a{
-    color: darkcyan;
-    background-color: white;
+    color: navy;
+    background-color: rgb(226, 217, 190);
     border-radius: 7px;
     padding: 2px 10px;
     text-decoration: none;
