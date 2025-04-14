@@ -156,11 +156,11 @@ ul{
     padding-top: 30px;
 }
 span{
-    height: 80px;
+    height: 5px;
     width: 100%;
     margin-bottom: 5%;
 
-    background-color: rgb(65, 65, 100);
+    background-color: rgb(110, 163, 255);
 }
 input{
     background-color: rgb(188, 213, 255);
